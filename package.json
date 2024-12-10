@@ -1,0 +1,24 @@
+{
+  "name": "fullapirest",
+  "version": "1.0.0",
+  "description": "API REST completa desplegable en Railway",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "swagger-jsdoc": "^6.2.8",
+    "uuid": "^11.0.3"
+  }
+}
